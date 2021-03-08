@@ -1,5 +1,8 @@
 let vetor = ['Joana', 'Maria', 'Jose', 'Rafa', 'Jurandi'];
-for(let nome in vetor){
-    console.log(vetor[nome])
+let pos = vetor.indexOf('Jurandi')
+if (pos == -1){
+    console.log("O valor não foi encontrado!")
+}else{
+    console.log(`O valor foi encontrado e corresponde a ${vetor[pos]}`)
 }
 
