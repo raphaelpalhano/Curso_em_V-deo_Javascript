@@ -1,0 +1,36 @@
+:root {
+    --darkble: #366ed4;
+  }
+  
+  body {
+    background: var(--darkble);
+    font: normal 15pt;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  #logo {
+    font-weight: normal;
+    font: larger, bold;
+    color: #fafafa;
+  }
+  
+  section {
+    background: #fafafa;
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+  }
+  
+  footer {
+    color: #fafafa;
+    text-align: center;
+  }
+  
+ 
+  

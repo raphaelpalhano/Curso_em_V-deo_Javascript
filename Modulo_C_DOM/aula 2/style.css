@@ -1,0 +1,44 @@
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#H{
+    font: normal 20pt Arial;
+    background: rgb(56, 172, 58);
+    color: #fafafa;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    position: relative;
+}
+#H:hover{
+    background-color: chartreuse;
+    opacity: 0.8;
+
+}
+
+body{
+    background: rgb(225, 241, 239);
+    color:rgb(43, 2, 2);
+}
+header{
+    font-size: medium;
+    color: rgb(43, 2, 2);
+
+}
+main{
+    color:  rgb(43, 2, 2);
+}
+
+div#HF{
+    font: normal 20pt Arial;
+    width: 200px;
+    height: 200px; line-height: 200px;
+    text-align: center;
+    position: relative;
+    color: #fafafa;
+    background: rgb(202, 37, 32);
+}
