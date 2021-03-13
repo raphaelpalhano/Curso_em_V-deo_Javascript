@@ -1,0 +1,41 @@
+body{
+    background: rgba(28, 128, 241, 0.781);
+    font: normal 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header div h1{
+    text-align: center;
+}
+
+.logo{
+    color: #fdf6f6;
+    font: large bold;
+    font-weight: normal;
+}
+
+section{
+    background-color: #fafafa;
+    border-radius: 10px;
+    border:solid rgba(241, 236, 236, 0.774);
+    padding: 20px;
+    width: 550px;
+    margin: auto;
+    box-shadow: rgba(10, 10, 10, 0.253);
+
+}
+
+footer{
+    color: #fafafa;
+    text-align: center;
+}
+
+p{
+    margin: 15px;
+}
+
+select#tab{
+    width: 200px;
+}

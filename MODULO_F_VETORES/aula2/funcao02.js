@@ -1,13 +1,10 @@
-
-//RECURSION
-function fatorial(num){
-    let fat = 1
+function recursion(num){
     if (num == 1){
         return 1
     }else{
-       return num * fatorial(num -1)
+        let number = num * recursion(num -1)
+        return number
     }
-    
 }
 
-console.log(fatorial(5))
+console.log(`${recursion(5)}`)
