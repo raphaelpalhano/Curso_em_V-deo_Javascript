@@ -45,6 +45,7 @@ let numtxt = document.getElementById('numtxt')
 let number = Number(numtxt.value)
 let table = document.getElementById('tab')
 let list = []
+let writte = document.getElementById('relatorio');
 
 
 function limited_number(num){
@@ -72,7 +73,7 @@ function adicionar(){
         let item = document.createElement('option')
         item.text = `Valor ${numtxt.value} adicionado`;
         table.appendChild(item)
-        
+        writte.innerHTML = ''
                 
                  
     }
@@ -91,7 +92,7 @@ function relatorio(){
         alert('[ERROR] Você não pode gerar o relatório sem nenhum valor na lista!')
     }
     else{
-        let writte = document.getElementById('relatorio');
+        
         writte.innerHTML = ''
         writte.innerHTML += `O total de elementos na lista é ${list.length} <br>`;
         writte.innerHTML += `A soma dos elementos na lista é ${sum(list)} <br>`;
