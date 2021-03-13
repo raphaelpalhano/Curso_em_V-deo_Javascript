@@ -38,4 +38,11 @@
 * Exercícios JavaScript (Parte 6)
 
 
-## MODULO F - EM FINALIZAÇÃO
+## MODULO F - FUNÇÕES E VETORES
+
+* Aula 15 – Variáveis Compostas
+* Aula 16 – Funções
+* Exercícios JavaScript (Parte 7)
+* Exercícios JavaScript (Parte 8)
+* Aula 17 – Próximos Passos
+
