@@ -39,3 +39,18 @@ p{
 select#tab{
     width: 200px;
 }
+
+.reset{
+    position: relative;
+    left: 150px;
+    bottom: 37px;
+}
+
+input{
+    border: solid rgba(204, 204, 204, 0.281);
+    
+}
+
+input:hover{
+    border: solid #cccc;
+}
